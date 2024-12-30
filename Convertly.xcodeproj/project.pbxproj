@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17B691162D21CD1B006C5C00 /* UnitConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		17B691272D21CD1C006C5C00 /* UnitConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		17B691312D21CD1C006C5C00 /* UnitConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B691162D21CD1B006C5C00 /* Convertly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Convertly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B691272D21CD1C006C5C00 /* ConvertlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B691312D21CD1C006C5C00 /* ConvertlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		17B691182D21CD1B006C5C00 /* UnitConverter */ = {
+		17B691182D21CD1B006C5C00 /* Convertly */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = UnitConverter;
+			path = Convertly;
 			sourceTree = "<group>";
 		};
-		17B6912A2D21CD1C006C5C00 /* UnitConverterTests */ = {
+		17B6912A2D21CD1C006C5C00 /* ConvertlyTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = UnitConverterTests;
+			path = ConvertlyTests;
 			sourceTree = "<group>";
 		};
-		17B691342D21CD1C006C5C00 /* UnitConverterUITests */ = {
+		17B691342D21CD1C006C5C00 /* ConvertlyUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = UnitConverterUITests;
+			path = ConvertlyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		17B6910D2D21CD1B006C5C00 = {
 			isa = PBXGroup;
 			children = (
-				17B691182D21CD1B006C5C00 /* UnitConverter */,
-				17B6912A2D21CD1C006C5C00 /* UnitConverterTests */,
-				17B691342D21CD1C006C5C00 /* UnitConverterUITests */,
+				17B691182D21CD1B006C5C00 /* Convertly */,
+				17B6912A2D21CD1C006C5C00 /* ConvertlyTests */,
+				17B691342D21CD1C006C5C00 /* ConvertlyUITests */,
 				17B691172D21CD1B006C5C00 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		17B691172D21CD1B006C5C00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17B691162D21CD1B006C5C00 /* UnitConverter.app */,
-				17B691272D21CD1C006C5C00 /* UnitConverterTests.xctest */,
-				17B691312D21CD1C006C5C00 /* UnitConverterUITests.xctest */,
+				17B691162D21CD1B006C5C00 /* Convertly.app */,
+				17B691272D21CD1C006C5C00 /* ConvertlyTests.xctest */,
+				17B691312D21CD1C006C5C00 /* ConvertlyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		17B691152D21CD1B006C5C00 /* UnitConverter */ = {
+		17B691152D21CD1B006C5C00 /* Convertly */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17B6913B2D21CD1C006C5C00 /* Build configuration list for PBXNativeTarget "UnitConverter" */;
+			buildConfigurationList = 17B6913B2D21CD1C006C5C00 /* Build configuration list for PBXNativeTarget "Convertly" */;
 			buildPhases = (
 				17B691122D21CD1B006C5C00 /* Sources */,
 				17B691132D21CD1B006C5C00 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				17B691182D21CD1B006C5C00 /* UnitConverter */,
+				17B691182D21CD1B006C5C00 /* Convertly */,
 			);
-			name = UnitConverter;
+			name = Convertly;
 			packageProductDependencies = (
 			);
 			productName = UnitConverter;
-			productReference = 17B691162D21CD1B006C5C00 /* UnitConverter.app */;
+			productReference = 17B691162D21CD1B006C5C00 /* Convertly.app */;
 			productType = "com.apple.product-type.application";
 		};
-		17B691262D21CD1C006C5C00 /* UnitConverterTests */ = {
+		17B691262D21CD1C006C5C00 /* ConvertlyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17B6913E2D21CD1C006C5C00 /* Build configuration list for PBXNativeTarget "UnitConverterTests" */;
+			buildConfigurationList = 17B6913E2D21CD1C006C5C00 /* Build configuration list for PBXNativeTarget "ConvertlyTests" */;
 			buildPhases = (
 				17B691232D21CD1C006C5C00 /* Sources */,
 				17B691242D21CD1C006C5C00 /* Frameworks */,
@@ -131,18 +131,18 @@
 				17B691292D21CD1C006C5C00 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				17B6912A2D21CD1C006C5C00 /* UnitConverterTests */,
+				17B6912A2D21CD1C006C5C00 /* ConvertlyTests */,
 			);
-			name = UnitConverterTests;
+			name = ConvertlyTests;
 			packageProductDependencies = (
 			);
 			productName = UnitConverterTests;
-			productReference = 17B691272D21CD1C006C5C00 /* UnitConverterTests.xctest */;
+			productReference = 17B691272D21CD1C006C5C00 /* ConvertlyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		17B691302D21CD1C006C5C00 /* UnitConverterUITests */ = {
+		17B691302D21CD1C006C5C00 /* ConvertlyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17B691412D21CD1C006C5C00 /* Build configuration list for PBXNativeTarget "UnitConverterUITests" */;
+			buildConfigurationList = 17B691412D21CD1C006C5C00 /* Build configuration list for PBXNativeTarget "ConvertlyUITests" */;
 			buildPhases = (
 				17B6912D2D21CD1C006C5C00 /* Sources */,
 				17B6912E2D21CD1C006C5C00 /* Frameworks */,
@@ -154,13 +154,13 @@
 				17B691332D21CD1C006C5C00 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				17B691342D21CD1C006C5C00 /* UnitConverterUITests */,
+				17B691342D21CD1C006C5C00 /* ConvertlyUITests */,
 			);
-			name = UnitConverterUITests;
+			name = ConvertlyUITests;
 			packageProductDependencies = (
 			);
 			productName = UnitConverterUITests;
-			productReference = 17B691312D21CD1C006C5C00 /* UnitConverterUITests.xctest */;
+			productReference = 17B691312D21CD1C006C5C00 /* ConvertlyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 17B691112D21CD1B006C5C00 /* Build configuration list for PBXProject "UnitConverter" */;
+			buildConfigurationList = 17B691112D21CD1B006C5C00 /* Build configuration list for PBXProject "Convertly" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17B691152D21CD1B006C5C00 /* UnitConverter */,
-				17B691262D21CD1C006C5C00 /* UnitConverterTests */,
-				17B691302D21CD1C006C5C00 /* UnitConverterUITests */,
+				17B691152D21CD1B006C5C00 /* Convertly */,
+				17B691262D21CD1C006C5C00 /* ConvertlyTests */,
+				17B691302D21CD1C006C5C00 /* ConvertlyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		17B691292D21CD1C006C5C00 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 17B691152D21CD1B006C5C00 /* UnitConverter */;
+			target = 17B691152D21CD1B006C5C00 /* Convertly */;
 			targetProxy = 17B691282D21CD1C006C5C00 /* PBXContainerItemProxy */;
 		};
 		17B691332D21CD1C006C5C00 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 17B691152D21CD1B006C5C00 /* UnitConverter */;
+			target = 17B691152D21CD1B006C5C00 /* Convertly */;
 			targetProxy = 17B691322D21CD1C006C5C00 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -388,10 +388,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = UnitConverter/UnitConverter.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Convertly/Convertly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UnitConverter/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Convertly/Preview Content\"";
 				DEVELOPMENT_TEAM = 725P88FGY3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -411,7 +411,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fm.mrc.UnitConverter;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.mrc.Convertly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -427,10 +427,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = UnitConverter/UnitConverter.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Convertly/Convertly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UnitConverter/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Convertly/Preview Content\"";
 				DEVELOPMENT_TEAM = 725P88FGY3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -450,7 +450,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fm.mrc.UnitConverter;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.mrc.Convertly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -479,7 +479,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitConverter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnitConverter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Convertly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Convertly";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -502,7 +502,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitConverter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnitConverter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Convertly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Convertly";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -554,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17B691112D21CD1B006C5C00 /* Build configuration list for PBXProject "UnitConverter" */ = {
+		17B691112D21CD1B006C5C00 /* Build configuration list for PBXProject "Convertly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17B691392D21CD1C006C5C00 /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17B6913B2D21CD1C006C5C00 /* Build configuration list for PBXNativeTarget "UnitConverter" */ = {
+		17B6913B2D21CD1C006C5C00 /* Build configuration list for PBXNativeTarget "Convertly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17B6913C2D21CD1C006C5C00 /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17B6913E2D21CD1C006C5C00 /* Build configuration list for PBXNativeTarget "UnitConverterTests" */ = {
+		17B6913E2D21CD1C006C5C00 /* Build configuration list for PBXNativeTarget "ConvertlyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17B6913F2D21CD1C006C5C00 /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17B691412D21CD1C006C5C00 /* Build configuration list for PBXNativeTarget "UnitConverterUITests" */ = {
+		17B691412D21CD1C006C5C00 /* Build configuration list for PBXNativeTarget "ConvertlyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17B691422D21CD1C006C5C00 /* Debug */,
