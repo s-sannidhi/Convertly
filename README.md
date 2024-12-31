@@ -17,10 +17,6 @@ Currently, the app supports the following types of conversions:
 - **Speed**: Convert between meters per second, kilometers per hour, miles per hour, and more.
 - **Time**: Convert between seconds, minutes, hours, days, and more.
 
-## Screenshots
-
-*Coming soon*
-
 ## Installation
 
 Follow these steps to run the app on your iOS device or simulator:
