@@ -59,6 +59,5 @@ Please ensure your code follows the project’s coding style and includes releva
 ## Acknowledgements
 
 - Developed using Swift and Xcode.
-- Icons by [Flaticon](https://www.flaticon.com).
 
 
