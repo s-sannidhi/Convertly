@@ -187,6 +187,8 @@ struct ContentView: View {
     
     @State private var isLoading = true
     
+    @GestureState private var dragOffset: CGFloat = 0
+    
     var body: some View {
         Group {
             if isLoading {
@@ -213,7 +215,6 @@ struct ContentView: View {
                     VStack(spacing: 24) {
                         unitTypePickerView
                         
-                        // Add a container for animated content
                         VStack(spacing: 24) {
                             graphSection
                             equationSection
@@ -226,11 +227,27 @@ struct ContentView: View {
                             removal: .move(edge: .leading).combined(with: .opacity)
                         ))
                         .animation(.smooth(duration: 0.3), value: selectedUnitType)
-                        .id(selectedUnitType) // Forces view replacement on type change
+                        .id(selectedUnitType)
                     }
                     .padding()
                 }
             }
+            .gesture(
+                DragGesture()
+                    .updating($dragOffset) { value, state, _ in
+                        state = value.translation.width
+                    }
+                    .onEnded { value in
+                        let threshold: CGFloat = 50
+                        if value.translation.width > threshold {
+                            // Swipe right - go to previous
+                            cycleUnitType(forward: false)
+                        } else if value.translation.width < -threshold {
+                            // Swipe left - go to next
+                            cycleUnitType(forward: true)
+                        }
+                    }
+            )
             .navigationTitle("Convertly")
             .navigationBarTitleDisplayMode(.large)
             .toolbarBackground(.visible, for: .navigationBar)
@@ -622,6 +639,21 @@ struct ContentView: View {
             return String(format: "%.2f", result)
         }
         return "---"
+    }
+    
+    private func cycleUnitType(forward: Bool) {
+        guard let currentIndex = unitTypes.firstIndex(of: selectedUnitType) else { return }
+        
+        let newIndex: Int
+        if forward {
+            newIndex = (currentIndex + 1) % unitTypes.count
+        } else {
+            newIndex = (currentIndex - 1 + unitTypes.count) % unitTypes.count
+        }
+        
+        withAnimation(.smooth(duration: 0.3)) {
+            selectedUnitType = unitTypes[newIndex]
+        }
     }
 }
 
