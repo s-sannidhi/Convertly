@@ -1,4 +1,4 @@
-# Convertly iOS App
+# Convertly 
 
 Convertly is a versatile and easy-to-use iOS app designed to handle a wide variety of unit conversions quickly and efficiently.
 
